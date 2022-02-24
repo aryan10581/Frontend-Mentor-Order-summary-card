@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+body{
+    /* background-color: hsl(245, 75%, 52%); */
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+.Container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 2px solid red; */
+width: 24%;
+background-image: url("images/illustration-hero.svg" );
+background-color: white;
+background-repeat: no-repeat;
+border-radius: 5%;
+}
+
+
+.para{
+    padding: 10%;
+}
+header{
+    margin-top:  65%;
+
+}
+.header h1{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.box{
+    border: 2px solid hsl(225, 100%, 98%);
+    text-align: left;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 5%;
+    width: 88%;
+    border-radius: 15px;
+}
+
+.box h1, .box p{
+    
+    margin-left: 20%;
+}
+.box h1{
+    margin-top: 3%;
+    font-weight: bolder;
+}
+.box p{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+
+}
+
+.box img{
+    position: absolute;
+    left: 8%;
+    top: 72%;
+    width: 11%;
+}
+.box a{
+    position: absolute;
+    left: 73%;
+    top: 73%;
+    font-weight: 600;
+    color: hsl(224, 32%, 45%);
+}
+.proceed{
+    margin-top: 5%;
+   cursor: pointer;
+   
+    border: 2px solid blue;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 4px 2px 10px gray;
+    color: white;
+    
+    margin-left: 5%;
+    width: 88%;
+    height: 32px;
+    border-radius: 7px;
+}
+.proceed p{
+    margin-top: 2%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cancel{
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width:2560px) {
+    .Container{
+        width: 14%;
+    }
+}
+@media screen and (max-width:2330px) {
+    .Container{
+        width: 20%;
+    }
+}
+@media screen and (max-width:1650px) {
+    .Container{
+        width: 27%;
+    }
+}
+@media screen and (max-width:1220px) {
+    .Container{
+        width: 38%;
+    }
+}
+@media screen and (max-width:888px) {
+    .Container{
+        width: 52%;
+    }
+}
+@media screen and (max-width:644px) {
+    .Container{
+        width: 70%;
+    }
+}
+@media screen and (max-width:484px) {
+    .Container{
+        width: 98%;
+    }
+    .header{
+        margin-top: 90%;
+    }
+}
